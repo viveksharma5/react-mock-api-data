@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "message": "Lead form data retrieved successfully",
+  "data": {
+    "form_id": "120248016830420080",
+    "total_leads": 250,
+    "total_form_responses": 162,
+    "questions": [
+      {
+        "number": 1,
+        "key": "Q1_BRAND_AWARENESS",
+        "question": "Which of the following brands have you heard of?",
+        "type": "multi_choice",
+        "options": [
+          { "key": "HDFC_BANK", "value": "HDFC Bank" },
+          { "key": "ICICI_BANK", "value": "ICICI Bank" },
+          { "key": "SBI", "value": "State Bank of India" },
+          { "key": "AXIS_BANK", "value": "Axis Bank" },
+          { "key": "NOT_SURE", "value": "Not Sure" }
+        ]
+      },
+      {
+        "number": 2,
+        "key": "Q2_CELEBRATION_BRAND",
+        "question": "Which brand would you consider for a special celebration?",
+        "type": "multi_choice",
+        "options": [
+          { "key": "HDFC_BANK", "value": "HDFC Bank" },
+          { "key": "ICICI_BANK", "value": "ICICI Bank" },
+          { "key": "AXIS_BANK", "value": "Axis Bank" },
+          { "key": "NOT_SURE", "value": "Not Sure" }
+        ]
+      },
+      {
+        "number": 3,
+        "key": "Q3_PREMIUM_PERCEPTION",
+        "question": "Which brand feels more premium?",
+        "type": "multi_choice",
+        "options": [
+          { "key": "HDFC_BANK", "value": "HDFC Bank" },
+          { "key": "ICICI_BANK", "value": "ICICI Bank" },
+          { "key": "NOT_SURE", "value": "Not Sure" }
+        ]
+      }
+    ],
+    "leads": [
+      {
+        "id": "lead-001",
+        "created_time": "2026-09-01T10:30:00Z",
+        "campaign_id": "120248016830420080",
+        "field_data": [
+          { "name": "Q1_BRAND_AWARENESS", "values": ["HDFC_BANK"] },
+          { "name": "Q2_CELEBRATION_BRAND", "values": ["HDFC_BANK"] },
+          { "name": "Q3_PREMIUM_PERCEPTION", "values": ["HDFC_BANK"] }
+        ],
+        "answers": {
+          "Q1_BRAND_AWARENESS": "HDFC Bank",
+          "Q2_CELEBRATION_BRAND": "HDFC Bank",
+          "Q3_PREMIUM_PERCEPTION": "HDFC Bank"
+        },
+        "questions": [
+          { "number": 1, "key": "Q1_BRAND_AWARENESS", "question": "Which of the following brands have you heard of?", "answer": "HDFC Bank" },
+          { "number": 2, "key": "Q2_CELEBRATION_BRAND", "question": "Which brand would you consider for a special celebration?", "answer": "HDFC Bank" },
+          { "number": 3, "key": "Q3_PREMIUM_PERCEPTION", "question": "Which brand feels more premium?", "answer": "HDFC Bank" }
+        ]
+      }
+    ],
+    "pagination": {
+      "total": 162,
+      "page": 1,
+      "pages": 1,
+      "per_page": 162
+    }
+  }
+}

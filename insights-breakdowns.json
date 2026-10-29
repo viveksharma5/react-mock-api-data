@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "message": "Campaign insights breakdowns retrieved successfully",
+  "data": {
+    "success": true,
+    "message": "Campaign insights with breakdowns fetched successfully",
+    "requestId": "MOCK-BLS-001",
+    "data": {
+      "summary": {
+        "total_records": 13,
+        "campaign_id": "120248016830420080",
+        "time_range": {
+          "since": "2026-08-28",
+          "until": "2026-09-05"
+        },
+        "breakdowns_applied": "age,gender",
+        "fields_requested": "impressions,reach",
+        "totals": {
+          "impressions": 15000,
+          "reach": 9000
+        }
+      },
+      "insights": [
+        {
+          "age": "18-24",
+          "date_start": "2026-08-28",
+          "date_stop": "2026-09-05",
+          "gender": "female",
+          "impressions": "1",
+          "reach": "1",
+          "campaign_id": "120248016830420080",
+          "breakdown_info": {
+            "age": "18-24",
+            "gender": "female"
+          }
+        },
+        {
+          "age": "18-24",
+          "date_start": "2026-08-28",
+          "date_stop": "2026-09-05",
+          "gender": "male",
+          "impressions": "1",
+          "reach": "1",
+          "campaign_id": "120248016830420080",
+          "breakdown_info": {
+            "age": "18-24",
+            "gender": "male"
+          }
+        },
+        {
+          "age": "25-34",
+          "date_start": "2026-08-28",
+          "date_stop": "2026-09-05",
+          "gender": "male",
+          "impressions": "1",
+          "reach": "1",
+          "campaign_id": "120248016830420080",
+          "breakdown_info": {
+            "age": "25-34",
+            "gender": "male"
+          }
+        }
+      ],
+      "paging": {
+        "cursors": {
+          "before": "MAZDZD",
+          "after": "MgZDZD"
+        }
+      }
+    }
+  }
+}

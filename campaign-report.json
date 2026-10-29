@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "message": "BLS campaign report retrieved successfully",
+  "data": {
+    "survey_id": "6a6c2744f9da21bf397b5b0b",
+    "survey_name": "HDFC V1 31 July",
+    "brand": "HDFC",
+    "survey_type": "BLS",
+    "status": "completed",
+    "campaign_details": {
+      "campaign_id": "120248016830420080",
+      "campaign_name": "HDFC Brand Lift Study",
+      "start_date": "2026-08-28",
+      "end_date": "2026-09-05",
+      "objective": "Measure brand lift metrics for HDFC campaign",
+      "target_audience": "Adults 18-65",
+      "total_responses": 162,
+      "planned_responses": 500
+    },
+    "kpi_cards": {
+      "impressions": {
+        "value": 15000,
+        "label": "Impressions",
+        "change": "+12.5%"
+      },
+      "reach": {
+        "value": 9000,
+        "label": "Unique Reach",
+        "change": "+8.3%"
+      },
+      "ctr": {
+        "value": "2.4%",
+        "label": "Click-Through Rate"
+      },
+      "completed": {
+        "value": 162,
+        "label": "Completed Surveys",
+        "planned": 500,
+        "progress": 32.4
+      }
+    },
+    "demographics": {
+      "age_breakdown": [
+        { "age": "18-24", "impressions": 4500, "reach": 2800, "gender_distribution": ["male", "female"] },
+        { "age": "25-34", "impressions": 5200, "reach": 3100, "gender_distribution": ["male", "female"] },
+        { "age": "35-44", "impressions": 3100, "reach": 1900, "gender_distribution": ["male", "female"] },
+        { "age": "45-54", "impressions": 1800, "reach": 1100, "gender_distribution": ["male", "female"] },
+        { "age": "55-64", "impressions": 400, "reach": 200, "gender_distribution": ["male", "female"] }
+      ],
+      "gender_breakdown": {
+        "male": { "count": 124, "impressions": 8500, "reach": 5200 },
+        "female": { "count": 112, "impressions": 7800, "reach": 4500 }
+      },
+      "age_totals": {
+        "max_age_total": 15000,
+        "max_gender_total": 124
+      }
+    },
+    "lift_questions": [
+      {
+        "id": 1,
+        "title": "Which of the following brands have you heard of?",
+        "tag": "",
+        "options": ["HDFC Bank", "ICICI Bank", "State Bank of India", "Axis Bank", "Not Sure"],
+        "chart_data": [
+          { "label": "HDFC Bank", "controlled": 8500, "exposed": 7200 },
+          { "label": "ICICI Bank", "controlled": 5200, "exposed": 4800 },
+          { "label": "State Bank of India", "controlled": 3100, "exposed": 2800 },
+          { "label": "Axis Bank", "controlled": 1800, "exposed": 1500 },
+          { "label": "Not Sure", "controlled": 850, "exposed": 1200 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Which brand would you consider for a special celebration?",
+        "tag": "",
+        "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "Not Sure"],
+        "chart_data": [
+          { "label": "HDFC Bank", "controlled": 7800, "exposed": 6500 },
+          { "label": "ICICI Bank", "controlled": 4900, "exposed": 4500 },
+          { "label": "Axis Bank", "controlled": 2100, "exposed": 1800 },
+          { "label": "Not Sure", "controlled": 650, "exposed": 900 }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Which brand feels more premium?",
+        "tag": "",
+        "options": ["HDFC Bank", "ICICI Bank", "HDFC Bank", "Not Sure"],
+        "chart_data": [
+          { "label": "HDFC Bank", "controlled": 6200, "exposed": 5500 },
+          { "label": "ICICI Bank", "controlled": 3800, "exposed": 3500 },
+          { "label": "Not Sure", "controlled": 750, "exposed": 1000 }
+        ]
+      }
+    ],
+    "report_tables": {
+      "question_summary": [
+        { "question": "Q1: Ad recall", "total_response": 162, "options": ["Yes", "No", "Not Sure"] },
+        { "question": "Q2: Brand preference", "total_response": 145, "options": ["HDFC", "ICICI", "Other", "None"] },
+        { "question": "Q3: Purchase intent", "total_response": 138, "options": ["Definitely", "Probably", "Maybe", "No"] }
+      ],
+      "aggregated_metrics": {
+        "total_reach": 9000,
+        "unique_users": 8500,
+        "frequency": 1.76,
+        "cost_per_impression": 0.45
+      }
+    },
+    "campaign_status": {
+      "delivery_status": "completed",
+      "data_quality": "high",
+      "last_updated": "2026-10-28T10:30:00Z",
+      "metadata": {
+        "report_id": "bls-6a6c2744f9da21bf397b5b0b-20261028",
+        "version": "2.1",
+        "data_freshness": "real-time"
+      }
+    }
+  }
+}

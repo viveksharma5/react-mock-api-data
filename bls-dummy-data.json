@@ -1,0 +1,196 @@
+{
+  "success": true,
+  "message": "BLS campaign report dummy data for HDFC V1 31 July survey",
+  "data": {
+    "survey_id": "6a6c2744f9da21bf397b5b0b",
+    "survey_name": "HDFC V1 31 July",
+    "brand": "HDFC",
+    "survey_type": "BLS",
+    "status": "completed",
+    "campaign_details": {
+      "campaign_id": "120248016830420080",
+      "campaign_name": "HDFC Brand Lift Study",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-08",
+      "objective": "Measure brand lift metrics for HDFC campaign - Aug 1-8 wave",
+      "target_audience": "Adults 18-65",
+      "total_responses": 162,
+      "planned_responses": 500
+    },
+    "kpi_cards": {
+      "impressions": {
+        "value": 12400,
+        "label": "Impressions",
+        "change": "+9.2%"
+      },
+      "reach": {
+        "value": 7550,
+        "label": "Unique Reach",
+        "change": "+6.8%"
+      },
+      "ctr": {
+        "value": "2.1%",
+        "label": "Click-Through Rate"
+      },
+      "completed": {
+        "value": 162,
+        "label": "Completed Surveys",
+        "planned": 500,
+        "progress": 32.4
+      }
+    },
+    "demographics": {
+      "age_breakdown": [
+        { "age": "18-24", "impressions": 3800, "reach": 2400, "gender_distribution": ["male", "female"] },
+        { "age": "25-34", "impressions": 4500, "reach": 2700, "gender_distribution": ["male", "female"] },
+        { "age": "35-44", "impressions": 2500, "reach": 1500, "gender_distribution": ["male", "female"] },
+        { "age": "45-54", "impressions": 1400, "reach": 850, "gender_distribution": ["male", "female"] },
+        { "age": "55-64", "impressions": 200, "reach": 100, "gender_distribution": ["male", "female"] }
+      ],
+      "gender_breakdown": {
+        "male": { "count": 86, "impressions": 6450, "reach": 3950 },
+        "female": { "count": 76, "impressions": 5950, "reach": 3600 }
+      },
+      "age_totals": {
+        "max_age_total": 4500,
+        "max_gender_total": 6450
+      }
+    },
+    "achieved_survey_responses": {
+      "controlled": {
+        "responses": 98,
+        "impressions": 6990,
+        "reach": 4280,
+        "completion_rate": 19.6
+      },
+      "exposed": {
+        "responses": 64,
+        "impressions": 5410,
+        "reach": 3270,
+        "completion_rate": 12.8
+      },
+      "total": {
+        "responses": 162,
+        "impressions": 12400,
+        "reach": 7550,
+        "overall_completion_rate": 32.4
+      }
+    },
+    "response_summary": {
+      "question_summary": [
+        { "question": "Q1: Brand awareness - past 3 months", "total_response": 162, "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "State Bank of India", "kotak Mahindra Bank", "Not Sure"] },
+        { "question": "Q2: Celebration bank preference", "total_response": 142, "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "None of the above"] },
+        { "question": "Q3: Premium perception", "total_response": 135, "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "Don't Know"] },
+        { "question": "Q4: Recent ad recall", "total_response": 151, "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "Can't Remember"] },
+        { "question": "Q5: Digital banking experience", "total_response": 131, "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "Not Used Digital Banking"] },
+        { "question": "Q6: Recommendation likelihood", "total_response": 162, "options": ["Very Likely", "Likely", "Neutral", "Unlikely", "Very Unlikely", "Don't Know"] }
+      ],
+      "aggregated_metrics": {
+        "total_reach": 7550,
+        "unique_users": 6800,
+        "frequency": 1.84,
+        "cost_per_impression": 0.50
+      }
+    },
+    "location_data": {
+      "controlled": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "coordinates": { "lat": 19.0761, "lng": 72.8777 },
+        "population_sample": 2500000
+      },
+      "exposed": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "coordinates": { "lat": 28.7041, "lng": 77.1025 },
+        "population_sample": 3200000
+      }
+    },
+    "lift_report": {
+      "generated_at": "2026-10-28T10:30:00Z",
+      "survey_duration": "2026-08-01 to 2026-08-08",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following banks have you heard of in the past 3 months?",
+          "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "State Bank of India", "kotak Mahindra Bank", "Not Sure"],
+          "answer_distribution": {
+            "HDFC Bank": 82,
+            "ICICI Bank": 58,
+            "Axis Bank": 35,
+            "State Bank of India": 28,
+            "kotak Mahindra Bank": 18,
+            "Not Sure": 24
+          }
+        },
+        {
+          "id": 2,
+          "question": "Which bank would you consider for a special celebration or festival?",
+          "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "None of the above"],
+          "answer_distribution": {
+            "HDFC Bank": 48,
+            "ICICI Bank": 34,
+            "Axis Bank": 16,
+            "kotak Mahindra Bank": 13,
+            "State Bank of India": 10,
+            "None of the above": 21
+          }
+        },
+        {
+          "id": 3,
+          "question": "Which bank feels most premium and luxury-oriented?",
+          "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "Don't Know"],
+          "answer_distribution": {
+            "HDFC Bank": 45,
+            "ICICI Bank": 26,
+            "Axis Bank": 14,
+            "kotak Mahindra Bank": 10,
+            "State Bank of India": 8,
+            "Don't Know": 32
+          }
+        },
+        {
+          "id": 4,
+          "question": "Which bank's advertisements do you recall seeing recently?",
+          "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "Can't Remember"],
+          "answer_distribution": {
+            "HDFC Bank": 78,
+            "ICICI Bank": 62,
+            "Axis Bank": 30,
+            "kotak Mahindra Bank": 22,
+            "State Bank of India": 28,
+            "Can't Remember": 38
+          }
+        },
+        {
+          "id": 5,
+          "question": "Which bank offers the best digital banking experience?",
+          "options": ["HDFC Bank", "ICICI Bank", "Axis Bank", "kotak Mahindra Bank", "State Bank of India", "Not Used Digital Banking"],
+          "answer_distribution": {
+            "HDFC Bank": 38,
+            "ICICI Bank": 34,
+            "Axis Bank": 18,
+            "kotak Mahindra Bank": 16,
+            "State Bank of India": 13,
+            "Not Used Digital Banking": 12
+          }
+        },
+        {
+          "id": 6,
+          "question": "How likely are you to recommend HDFC Bank to friends or family?",
+          "options": ["Very Likely", "Likely", "Neutral", "Unlikely", "Very Unlikely", "Don't Know"],
+          "answer_distribution": {
+            "Very Likely": 45,
+            "Likely": 39,
+            "Neutral": 30,
+            "Unlikely": 16,
+            "Very Unlikely": 10,
+            "Don't Know": 22
+          }
+        }
+      ]
+    }
+  }
+}
